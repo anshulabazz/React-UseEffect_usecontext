@@ -1,0 +1,40 @@
+.login {
+    width: 40rem;
+    max-width: 90%;
+    margin :5rem auto ;
+    padding:2rem ;
+}
+.control {
+    margin: 1rem 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.control label input {
+    display:block;
+
+}
+.control label {
+    font-weight: 100;
+    flex: 1;
+    color:blueviolet;
+    margin-bottom: 0.5rem;
+}
+.control input{
+    flex: 3;
+    font: inherit;
+    border: 1px solid #ccc;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+}
+.control.invalid input {
+    background: #FF0000;
+}
+.control input:focus{
+    outline:none;
+    border-color:#4f005f;
+    background:#f6dbfc
+}
+.action{
+    text-align: center;
+}
